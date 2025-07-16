@@ -5,23 +5,23 @@
 [![Paper](https://img.shields.io/badge/paper-TVLSI'25-b31b1b.svg)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9444)
 [![Stars](https://img.shields.io/github/stars/J12-Kyrie/3D-IC-Thermal?style=social)](https://github.com/J12-Kyrie/3D-IC-Thermal/stargazers)
 
-> [cite_start]一种针对三维集成电路（3D-IC）的高效、高精度稳态热分析解析框架，能够精确处理任意形状的功率密度分布。 [cite: 4]
+一种针对三维集成电路（3D-IC）的高效、高精度稳态热分析解析框架，能够精确处理任意形状的功率密度分布。
 
-[cite_start]该仓库是论文 **"An Analytical 3D-IC Thermal Simulation Framework Using Adaptive Rectangular Approximation and Conformal Mesh Method"** 的官方代码实现。 [cite: 1]
+该仓库是论文 **"An Analytical 3D-IC Thermal Simulation Framework Using Adaptive Rectangular Approximation and Conformal Mesh Method"** 的官方代码实现。
 
 ---
 
 ## ✨ 核心特性
 
-* [cite_start]**处理任意功率密度图**: 创新性地提出 **自适应矩形近似算法**，能够将任意曲线形状的功率模块高效、精确地离散化为矩形热源集合。 [cite: 5, 94]
-* [cite_start]**高效解析求解**: 基于 **域分解法 (Domain Decomposition Method)** [cite: 7, 32] [cite_start]和 **傅里叶级数展开** [cite: 88][cite_start]，对多层3D-IC结构进行全解析求解，避免了传统数值方法的离散化误差。 [cite: 24]
-* [cite_start]**共形网格与步进积分**: 结合 **共形网格生成算法 (Conformal Mesh Generation)** [cite: 6, 81] [cite_start]与解析步进积分，极大地提高了傅里叶系数的计算效率和精度。 [cite: 90, 279]
-* [cite_start]**卓越的性能**: 与商业有限元软件（如COMSOL）相比，本框架在保持高精度（最大绝对误差低于0.5 K）的同时 [cite: 9, 42][cite_start]，实现了 **高达60倍** 的计算速度提升。 [cite: 9, 544]
-* [cite_start]**支持各向异性材料**: 模型在求解过程中考虑了材料热导率的各向异性，更贴近真实物理情况。 [cite: 32, 121]
+**处理任意功率密度图**: 创新性地提出 **自适应矩形近似算法**，能够将任意曲线形状的功率模块高效、精确地离散化为矩形热源集合。
+**高效解析求解**: 基于 **域分解法 (Domain Decomposition Method)** 和 **傅里叶级数展开** ，对多层3D-IC结构进行全解析求解，避免了传统数值方法的离散化误差。
+**共形网格与步进积分**: 结合 **共形网格生成算法 (Conformal Mesh Generation)** 与解析步进积分，极大地提高了傅里叶系数的计算效率和精度。
+**卓越的性能**: 与商业有限元软件（如COMSOL）相比，本框架在保持高精度（最大绝对误差低于0.5 K）的同时，实现了 **高达60倍** 的计算速度提升。
+**支持各向异性材料**: 模型在求解过程中考虑了材料热导率的各向异性，更贴近真实物理情况。
 
 ## 🚀 安装指南
 
-[cite_start]本项目使用Python实现，并依赖于NumPy等科学计算库。 [cite: 335]
+本项目使用Python实现，并依赖于NumPy等科学计算库。
 
 1.  **克隆仓库**
     ```bash
@@ -39,7 +39,6 @@
     ```bash
     pip install -r requirements.txt
     ```
-    *(请在`requirements.txt`文件中列出所有依赖，如 `numpy`)*
 
 ## 💡 快速开始
 
