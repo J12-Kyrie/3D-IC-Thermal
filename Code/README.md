@@ -30,8 +30,8 @@ This project is implemented in Python and relies on scientific computing librari
 
 1. **Clone the Repository**  
     ```bash
-    git clone https://github.com/J12-Kyrie/3D-IC-Thermal.git  
-    cd 3D-IC-Thermal  
+    git clone https://github.com/leonchenucr/AnalyticalThermal3DIC.git  
+    cd AnalyticalThermal3DIC  
     ```  
 
 2. **Create a Virtual Environment (Recommended)**  
