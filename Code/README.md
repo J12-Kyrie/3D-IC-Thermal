@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![Paper](https://img.shields.io/badge/paper-TVLSI'25-b31b1b.svg)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9444)
-[![Stars](https://img.shields.io/github/stars/J12-Kyrie/3D-IC-Thermal?style=social)](https://github.com/J12-Kyrie/3D-IC-Thermal/stargazers)
+[![Stars](https://img.shields.io/github/stars/leonchenucr/AnalyticalThermal3DIC?style=social)](https://github.com/leonchenucr/AnalyticalThermal3DIC/stargazers) 
 
 An efficient and high-accuracy analytical framework for steady-state thermal analysis of three-dimensional integrated circuits (3D-ICs), capable of precisely handling power density distributions of arbitrary shapes.
 
